@@ -1,0 +1,4 @@
+{"StudentId":100, "Name":"Iron Man", "Age":33, "DeptId":"Avengers", "YearOfAdmission":2008}
+{"StudentId":101, "Name":"Captain America", "Age":78, "DeptId":"Avengers", "YearOfAdmission":2011}
+{"StudentId":102, "Name":"Batman", "Age":35, "DeptId":"DC", "YearOfAdmission":2005}
+{"StudentId":103, "Name":"Superman", "Age":38, "DeptId":"DC", "YearOfAdmission":2013}
