@@ -54,7 +54,7 @@ object SparkKafkaIntegrationDemo {
       override def onQueryProgress(queryProgress: QueryProgressEvent): Unit = {
         println("Query made progress: " + queryProgress.progress)
         println("Input rows per second: " + queryProgress.progress.inputRowsPerSecond)
-        println("Processes rows per second: " + queryProgress.progress.processedRowsPerSecond)
+        println("Processed rows per second: " + queryProgress.progress.processedRowsPerSecond)
 
         // Query the in memory table for the current data order by 'age' desc
         val currentDf = spark.sql("select * from student_data_order_by_age_desc order by age desc")
